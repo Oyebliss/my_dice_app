@@ -6,9 +6,9 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blueAccent,
         appBar: AppBar(
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.blueAccent,
           title: const Center(
             child: Text(
               'Dicee',
