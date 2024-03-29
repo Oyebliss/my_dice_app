@@ -6,6 +6,9 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        useMaterial3: false,
+      ),
       home: Scaffold(
         backgroundColor: Colors.blueAccent,
         appBar: AppBar(
@@ -21,7 +24,7 @@ void main() {
             ),
           ),
         ),
-        body: DicePage(),
+        body: const DicePage(),
       ),
     ),
   );
