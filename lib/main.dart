@@ -13,7 +13,10 @@ void main() {
             child: Text(
               'Dicee',
               style: TextStyle(
-                  fontSize: 25, letterSpacing: 5, color: Colors.white),
+                fontSize: 25,
+                letterSpacing: 5,
+                color: Colors.white,
+              ),
             ),
           ),
         ),
